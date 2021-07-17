@@ -1,0 +1,69 @@
+.tutorials {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1920px;
+  padding: 2rem 0rem 6rem 0rem;
+}
+
+.tutorials p {
+  font-weight: 700;
+  font-size: 18px;
+  color: #8d448b;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.tutorials h1 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #0f2137;
+  margin-bottom: 75px;
+  text-align: center;
+}
+.mySwiper {
+  width: 90%;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  max-width: 410px;
+  max-height: 395px;
+  border-radius: 10px;
+}
+
+.swiper-slide img {
+  width: 100%;
+}
+
+.swiper-slide h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 20px;
+}
+
+.swiper-slide p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #343d48;
+  text-align: left;
+  padding-left: 20px;
+}
+
+@media (max-width: 700px) {
+  .tutorials {
+    padding-bottom: 2rem;
+  }
+}
