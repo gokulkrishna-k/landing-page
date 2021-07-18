@@ -19,7 +19,9 @@ burger.addEventListener('click', () => {
 });
 
 nav.addEventListener('click', () => {
-  burger.classList.toggle('toggle');
-  nav.classList.toggle('nav-active');
-  body.classList.toggle('body-disable');
+  if (nav.classList.contains('nav-active')) {
+    burger.classList.toggle('toggle');
+    nav.classList.toggle('nav-active');
+    body.classList.toggle('body-disable');
+  }
 });
